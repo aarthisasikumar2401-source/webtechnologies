@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aarthi Portfolio</title>
+
+    <style>
+        body{
+            background-color: lightblue;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1{
+            color: darkblue;
+            font-size: 40px;
+        }
+
+        .phone{
+            color: brown;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .objective{
+            background-color: darkblue;
+            color: black;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        table{
+            margin: auto;
+            border-collapse: collapse;
+            width: 70%;
+            background-color: white;
+        }
+
+        th,td{
+            border:2px solid black;
+            padding:12px;
+            text-align:center;
+        }
+
+        th{
+            background-color: navy;
+            color:white;
+        }
+
+        img{
+            width:60px;
+            height:60px;
+            margin:15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Aarthi</h1>
+
+    <p class="phone">Phone Number : 6374497344</p>
+
+    <a href="https://www.linkedin.com/in/aarthi-sasikumar" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+    </a>
+
+    <a href="https://github.com/aarthisasikumar2401-source" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+    </a>
+
+    <br><br>
+
+    <div class="objective">
+        <h2 style="color:white;">Objective</h2>
+
+        <p>
+            I am Aarthi, a passionate B.Tech Information Technology student at
+            Sri Sairam Institute of Technology. I am interested in web
+            development, Java programming, and full-stack development. My goal
+            is to continuously improve my technical skills, work on innovative
+            projects, and contribute effectively to an organization while
+            enhancing my knowledge and professional growth.
+        </p>
+    </div>
+
+    <br><br>
+
+    <h2>Education Details</h2>
+
+    <table>
+        <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Percentage / CGPA</th>
+        </tr>
+
+        <tr>
+            <td>10th</td>
+            <td>School</td>
+            <td>85.5%</td>
+        </tr>
+
+        <tr>
+            <td>12th</td>
+            <td>School</td>
+            <td>70%</td>
+        </tr>
+
+        <tr>
+            <td>B.Tech Information Technology</td>
+            <td>Sri Sairam Institute of Technology</td>
+            <td>CGPA - 8.47</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
